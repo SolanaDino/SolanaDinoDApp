@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.ant-row {
+  min-width: 100%;
+}
+
+.builton {
+  background-image: url("components/builton.svg");
+  width: 250px;
+  height: 50px;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  margin: 0 auto 0 auto;
+}
+
+.builton svg {
+  height: 40px;
+}
+
+.wallet-adapter-button {
+  background: #b73fcb;
+  box-shadow: 0 3px 3px 2px rgb(0 0 0 / 10%) ;
+  border-radius: 10px !important;
+  width: 100%;
+  font-weight: 700 !important;
+  color: rgba(255,255,255,0.85) !important;
+  transition: all .3s cubic-bezier(.645,.045,.355,1);
+  text-align: center !important;
+  height: 40px !important;
+  justify-content: center;
+  font-size: 14px !important;
+}
+
+.wallet-adapter-button-trigger {
+  background-color: #b73fcb !important;
+  border-radius: 10px;
+}
+
+.wallet-adapter-button:not([disabled]):focus-visible {
+  background-color: transparent !important;
+  color: white !important;
+  text-decoration: "none";
+}
+
+.wallet-adapter-button:not([disabled]):hover {
+  background-color: transparent !important;
+  color: white !important;
+  text-decoration: "none";
+}
+
+.wallet-adapter-button[disabled] {
+  background: #404144;
+  color: #fff !important;
+  cursor: not-allowed;
+}

@@ -1,0 +1,30 @@
+# note: use solana 1.14.18 and anchor 0.25.0 to compile
+
+[package]
+name = "hatch"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "hatch"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+verbose = []
+
+[dependencies]
+anchor-lang = { version = "=0.25.0", features = ["init-if-needed"] }
+anchor-spl = "=0.25.0"
+spl-associated-token-account = "=1.0.5"
+mpl-token-metadata = { version = "=1.3.6", features = ["no-entrypoint"] }
+bit = "=0.1.1"
+hex = "=0.4.3"
+
+[dev-dependencies]
+rand = "=0.8.5"

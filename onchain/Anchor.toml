@@ -1,0 +1,37 @@
+anchor_version = "0.25.0"
+
+[features]
+seeds = true
+
+[workspace]
+members = ["programs/dino", "programs/egger", "programs/hatch"]
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
+
+[programs.localnet]
+dino = "RAWRbJtj6gnQhC13v4VUPY3LxkwAiDXuH42uaR38ywf"
+egger = "eggLYZtrPdTdkwPFWcQL8qq7QM4AvXKtYBH2KK7gmxC"
+hatch = "HAtcHcNADtwriNaXzkLqMjANDxKSV9Zy5MK2m9kiYzCS"
+
+[programs.devnet]
+dino = "RAWRbJtj6gnQhC13v4VUPY3LxkwAiDXuH42uaR38ywf"
+egger = "eggLYZtrPdTdkwPFWcQL8qq7QM4AvXKtYBH2KK7gmxC"
+hatch = "HAtcHcNADtwriNaXzkLqMjANDxKSV9Zy5MK2m9kiYzCS"
+
+[programs.testnet]
+dino = "RAWRbJtj6gnQhC13v4VUPY3LxkwAiDXuH42uaR38ywf"
+egger = "eggLYZtrPdTdkwPFWcQL8qq7QM4AvXKtYBH2KK7gmxC"
+hatch = "HAtcHcNADtwriNaXzkLqMjANDxKSV9Zy5MK2m9kiYzCS"
+
+[programs.mainnet]
+dino = "RAWRbJtj6gnQhC13v4VUPY3LxkwAiDXuH42uaR38ywf"
+egger = "eggLYZtrPdTdkwPFWcQL8qq7QM4AvXKtYBH2KK7gmxC"
+hatch = "HAtcHcNADtwriNaXzkLqMjANDxKSV9Zy5MK2m9kiYzCS"

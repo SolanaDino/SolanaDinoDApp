@@ -1,0 +1,57 @@
+{
+    "name": "Dino Egg Common",
+    "symbol": "DINOENFT1",
+    "description": "A mysterious yet common dino egg",
+    "seller_fee_basis_points": 500,
+    "image": "https://www.arweave.net/VW0T4ishgqUf1aoePMhls3WrsKr87-AuIZSY-WP5yrY?ext=png",
+    "external_url": "https://solanadino.com",
+    "attributes": [
+        {
+            "trait_type": "Rarity",
+            "value": "Common"
+        },
+        {
+            "trait_type": "Color",
+            "value": "Blue"
+        },
+        {
+            "trait_type": "Speed",
+            "value": "Unknown"
+        },
+        {
+            "trait_type": "Intelligence",
+            "value": "Unknown"
+        },
+        {
+            "trait_type": "Strength",
+            "value": "Unknown"
+        },
+        {
+            "trait_type": "Stamina",
+            "value": "Unknown"
+        },
+        {
+            "trait_type": "Season",
+            "value": "1"
+        }
+    ],
+    "collection": {
+        "name": "Solana Dino",
+        "family": "Solana Dino"
+    },
+    "properties": {
+        "files": [
+            {
+                "uri": "https://www.arweave.net/VW0T4ishgqUf1aoePMhls3WrsKr87-AuIZSY-WP5yrY?ext=png",
+                "type": "image/png"
+            }
+        ],
+        "category": "image",
+        "creators": [
+            {
+                "address": "DiNoEJcWJmjiQg2HZuUQkzE4wvDP4DGG3FdT5FeJaKhy",
+                "share": 100
+            }
+        ]
+    }
+}

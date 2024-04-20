@@ -1,0 +1,22 @@
+{
+  "name": "prep",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@saberhq/token-utils": "^1.14.0",
+    "bn.js": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "jsbi": "^4.3.0",
+    "path": "^0.12.7",
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0"
+  }
+}

@@ -1,0 +1,334 @@
+@import "~antd/dist/antd.less";
+@import "./ant-custom.less";
+
+body {
+  --row-highlight: @background-color-base;
+}
+
+.App {
+  background: rgb(73, 174, 221);
+  background: -moz-linear-gradient(
+    122deg,
+    rgba(73, 174, 221, 1) 0%,
+    rgba(130, 105, 212, 1) 52%,
+    rgba(181, 33, 201, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    122deg,
+    rgba(73, 174, 221, 1) 0%,
+    rgba(130, 105, 212, 1) 52%,
+    rgba(181, 33, 201, 1) 100%
+  );
+  background: linear-gradient(
+    122deg,
+    rgba(73, 174, 221, 1) 0%,
+    rgba(130, 105, 212, 1) 52%,
+    rgba(181, 33, 201, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49aedd",endColorstr="#b521c9",GradientType=1);
+}
+
+.ant-layout {
+  background: none;
+}
+
+.app-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  letter-spacing: 2.8px;
+  line-height: 80px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 28px;
+    margin: 0px;
+  }
+}
+
+.ant-card-bordered {
+  border-radius: 15px;
+  // border-color: #f0f0f0;
+  box-shadow: 1px 4px 40px 3px rgba(0, 0, 0, 0.15);
+}
+
+.ant-card {
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 600px;
+  // min-height: 320px;
+  background: #32363d;
+}
+
+.ant-card-body {
+  padding: 0px;
+}
+
+.ant-layout-header {
+  align-items: center;
+  height: 80px;
+  background: none;
+  padding: 0 20px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 64px;
+  display: flex;
+}
+
+.ant-btn-primary {
+  color: #fff;
+  border-color: #b73fcb;
+  text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+  background: #b73fcb;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.ant-btn-ghost {
+  color: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.068);
+  border-radius: 15px;
+  background: transparent;
+}
+
+.ant-modal-content {
+  border-radius: 15px;
+}
+
+.ant-modal-header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.ant-slider-rail {
+  background-color: #f5f5f5;
+}
+
+.ant-slider-track {
+  background-color: #5b9adb;
+}
+
+.ant-menu-item-selected {
+  background-color: #b73fcb !important;
+}
+
+.ant-slider-handle {
+  background-color: #5b9adb !important;
+  border: solid 2px#f5f5f5;
+}
+
+.App-Bar {
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  top: 0px;
+  position: relative;
+  padding: 1rem;
+  z-index: 2;
+
+  .ant-menu-horizontal {
+    border-radius: 12px;
+    border-bottom-color: transparent;
+    background-color: "#32363D";
+    line-height: inherit;
+    font-size: 16px;
+    margin: 0 10px;
+
+    .ant-menu-item {
+      border-radius: 12px;
+      margin: 5px;
+      color: lightgrey;
+      height: 35px;
+      line-height: 35px;
+      border-width: 0px !important;
+    }
+
+    .ant-menu-item:hover {
+      color: white;
+      border-width: 0px !important;
+    }
+
+    .ant-menu-item-selected {
+      font-weight: bold;
+    }
+
+    .ant-menu-title-content {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+    }
+
+    .ant-menu-item-selected,
+    .ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+      background-color: #5b9adb;
+    }
+  }
+}
+
+.App-Bar-left {
+  box-sizing: border-box;
+  margin: 0px;
+  min-width: 0px;
+  display: flex;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  width: fit-content;
+}
+
+.App-Bar-right {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-self: flex-end;
+}
+
+.wallet-wrapper {
+  padding-left: 0.7rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.wallet-key {
+  padding: 0.1rem 0.5rem 0.1rem 0.7rem;
+  margin-left: 0.3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.ant-tabs-nav-scroll {
+  display: flex;
+  justify-content: center;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.wallet-key {
+  padding: 0.1rem 0.5rem 0.1rem 0.7rem;
+  margin-left: 0.3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.ant-notification {
+  a {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.ant-layout-content {
+  display: flex;
+  overflow: auto;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-fill {
+  height: 100%;
+}
+
+.card-row {
+  box-sizing: border-box;
+  margin: 5px 0px;
+  min-width: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+
+  .card-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    box-sizing: border-box;
+    text-align: left;
+    margin: 0px;
+    min-width: 0px;
+    font-size: 14px;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .small {
+    font-size: 11px;
+  }
+}
+
+.token-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid grey;
+  padding: 0px 10px;
+  margin: 5px 0px;
+}
+
+.token-balance {
+  margin-left: auto;
+  margin-right: 5px;
+  color: @text-color-secondary;
+}
+
+.btn-ls {
+  background: #b73fcb;
+  box-shadow: 0px 3px 3px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+
+.btn-section {
+  height: 70px;
+}
+
+[class="ant-layout-header"] {
+  height: 16px !important;
+}
+
+@media only screen and (max-width: 600px) {
+  .exchange-card {
+    width: 360px;
+  }
+}
+
+.loading-mask {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.static-load {
+  display: none;
+}
+
+.dynamic-load {
+  pointer-events: none;
+}
