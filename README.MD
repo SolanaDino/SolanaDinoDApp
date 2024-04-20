@@ -49,33 +49,7 @@ Dino Egg NFTs can in fact be hatched into baby dinos.  This will have a similar 
 ### Phase 6 - Dino Egg hatching
 You've hatched a dino! You'll be able to name your Dino NFT, and it will have assigned traints as is seen in typical RPG type games - level, luck, strength, stamina, courage, magic, etc
 
-### Phase N - The Dino Entertainment Future
-What could be next?
-
-## Initial Token Distribution
-
-### Total fixed supply 
-500 000 000 
-
-### Planned Supply
-|Owner|Amount|
-|---|---|
-|Team|50 000 000|
-|Liquidity / marketing|75 000 000|
-|Airdrops / reward programs|375 000 000|
-
-### Current Balance
-|Owner|Amount|Note|
-|---|---|---|
-|Team|50 000 000|Split 3 ways|
-|Liquidity / marketing|55 000 000|20 000 000 used as outlined below|
-|Airdrops / reward programs|272 174 604|Initial Airdrop Complete|
-
-### Marketing Wallet
-`37zXX2mgZwg4uyEKw3nXoN79gTf4SCTQKFvq1u3GH8Eh`
-|Location|DINO|Pair|
-|---|---|---|
-|Raydium LP|1 685 964|USDC|
-|Step Finance LP|1 811 973|STEP|
-|DINO|1 193 625||
-|USDC|8 200||
+## Dino Token 
+- 6Y7LbYB3tfGBG6CSkyssoxdtHb77AEMTRVXe8JUJRwZ7
+- Supply: 200 000 000 
+- LP: 100% locked
